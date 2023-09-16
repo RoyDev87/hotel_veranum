@@ -1,0 +1,111 @@
+/**************** FUENTES IMPORT ******************/
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,600,700,900&display=swap');
+
+
+body {
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.80857;
+    font-weight: normal;
+}
+
+
+
+
+/******************* CONTENIDO ******************/
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff !important;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.form_titulo {
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    padding-bottom: 6%;
+    text-transform: uppercase;
+}
+
+.contenedor_form {
+    width: 100%;
+    display: grid;
+    gap: 0.5em;
+    grid-auto-columns: 100%;
+}
+
+.form_input {
+    width: 100%;
+    font-family: inherit;
+    padding: 3px 3px;
+    outline: none;
+    border: none;
+    border: 2px solid #353e4e;
+    border-radius: 5px;
+}
+
+.form_input2 {
+    width: 87%;
+    font-family: inherit;
+    padding: 3px 3px;
+    margin-right: 7px;
+    outline: none;
+    border: none;
+    border: 2px solid #353e4e;
+    border-radius: 5px;
+}
+
+.form_input3 {
+    width: 10%;
+    font-family: inherit;
+    padding: 3px 3px;
+    outline: none;
+    border: none;
+    border: 2px solid #353e4e;
+    border-radius: 5px;
+}
+
+.form_cta {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: #353e4e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 3px;
+    cursor: pointer;
+
+}
+
+.form_input--message {
+    resize: none;
+    padding: 5px 5px;
+}
+
+.invalid {
+    border: solid 1px #ff0000;
+    box-shadow: 0 0 8px #ff0000;
+}
+
+.error {
+    color: #ff0000;
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: italic;
+}
